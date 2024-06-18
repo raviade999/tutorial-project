@@ -1,0 +1,19 @@
+
+
+<body style="text-align:center;">
+    <h1 style="color:green;">
+        CALCULATOR
+    </h1>
+
+
+<input type="text" [(ngModel)]="num1" placeholder="Enter first number"> <br>
+<input type="text" [(ngModel)]="num2" placeholder="Enter second number"> <br>
+
+<button (click)="addition()">+</button>
+<button (click)="subtraction()">-</button>
+<button (click)="multiplication()">*</button>
+<button (click)="division()">/</button>
+
+<br>
+
+Result: {{result}}
